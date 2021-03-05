@@ -22,7 +22,7 @@ public class BolinhaThread extends Thread{
 			posicao.y += 10;
 			bolinha.setBounds(posicao);
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(30);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
